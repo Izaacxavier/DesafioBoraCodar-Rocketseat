@@ -17,7 +17,7 @@ Esse projeto foi desenvolvido usando as seguintes tecnologias:
 
  - [Layout do figma](https://www.figma.com/file/vGpXiad1moDCE22uiG3Trk/%23boracodar---Desafio-11-(Community)?node-id=11-31&t=pVewzgpoKEkuPlQS-0)
 
- - [Veja o site em funcionamento](https://izaacxavier.github.io/NLW-SETUP/)
+ - [Veja o site em funcionamento](https://izaacxavier.github.io/DesafioBoraCodar-Rocketseat/)
  
 <hr>
 Developer by Izaac xavier 💜
