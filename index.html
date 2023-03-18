@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio #boracodar pagina de login</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <main>
+        <div class="form_login_main">
+            <div class="form_login">
+                <div class="header">
+                    <img class="logo_login" src="/img/logo.svg" alt="logo">
+                </div>
+                <div class="form_login_input">
+                    <div class="title">
+                        <h1>Acesse a plataforma</h1>
+                        <p>Faça login ou registre-se para começar a construir seus projetos ainda hoje.</p>
+                    </div>
+
+                    <form class="form_content">
+                        <label for="input_email">E-mail </label>
+                        <input id="input_email" type="email" name="email" placeholder="Digite seu e-mail"
+                            onblur="validandoInput()" required>
+                        <small id="text_erro_email"></small>
+                        <label for="input_password">Senha
+                            <small><a href="">Esqueceu a senha?</a></small>
+                        </label>
+                        <label class="eye_content"> 
+                            <img class="eye-on" src="/img/eye-on.svg" alt="">
+                            <img class="eye-off" src="/img/eye-off.svg" alt="">           
+                        </label>
+                        <input id="input_password" type="password" name="password" placeholder="Digite sua senha"
+                            onblur="validandoInput()" required>
+                        <small id="text_erro_pass"></small>
+
+                        <button class="btn_login" type="button">Entrar</button>
+                    </form>
+                    <div class="footer_content">
+                        <p>Ainda não tem uma conta? <a href="#">Inscreva-se</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="picture_main"></div>
+        </div>
+
+    </main>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
